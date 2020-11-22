@@ -22,7 +22,7 @@ URLにアクセスし、自分のシフト変更内容を記入するだけ。
 タスクランナー： Gulp  
 ウェブサイト構築: Firebase by Google  
 使用エディタ: Atom  
-参考コード： https://github.com/sefyudem/Javascript-Todo-App/blob/master/main.js
+参考コード： https://github.com/sefyudem/Javascript-Todo-App/blob/master/main.js  
 ※あくまでフロントエンドのツールを使用することを目的としているので  
 サーバーサイドの設定はしておらずローカルストレージを使用しています。  
 リロードすると掲示板の内容は残りません。
