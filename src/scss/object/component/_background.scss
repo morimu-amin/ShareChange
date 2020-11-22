@@ -1,0 +1,22 @@
+@import "foundation/foundation";
+
+.c-bg-top {
+  background-image: $bg-top;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: calc(100vh - #{$footer});
+  @include mq(){
+      background-image: $bg-top-pc;
+  }
+}
+
+.c-bg-shift {
+  background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: calc(100vh - #{$footer});
+}

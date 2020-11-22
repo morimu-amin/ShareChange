@@ -1,0 +1,16 @@
+.c-list__add-task {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.c-list__add-task_text {
+  width: 100%;
+  text-indent: .5em;
+  height: 35px;
+  line-height: 100%;
+  @include fz(16);
+  @include mq(){
+    height: 39px;
+  };
+}

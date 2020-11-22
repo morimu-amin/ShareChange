@@ -1,0 +1,47 @@
+$font-family-san-serif: 'Helvetica Neue', Helvetica, sans-serif !default;
+$font-family-point: 'Patua One', cursive;
+$bg-top: url('../img/bg_top.jpg');
+$bg-top-pc: url('../img/bg_top-pc.jpg');
+$footer: 54px;
+$btn-color: #336633;
+$btn-add-color: #b6195d;
+$list-title-undercolor: #ed1c24;
+$list-item-untercolor: #b07f72;
+$list-item-bgcolor: #f1eac3;
+
+//font-size
+@mixin fz($size){
+  font-size: $size + px;
+  font-size: ($size / 10)* 1rem;
+}
+
+//mediaquery
+$breakpoints:(
+'pc': screen and (min-width: 900px),
+) !default;
+
+@mixin mq($breakpoint: pc){
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+//setting
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-family-san-serif;
+  height: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

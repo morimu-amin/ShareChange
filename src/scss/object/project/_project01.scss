@@ -1,0 +1,69 @@
+@import "foundation/foundation";
+
+//index.html
+.p-main__toptheme {
+  @include fz(30);
+  text-align: center;
+  color: #b0717e;
+  font-family: $font-family-point;
+  @include mq(){
+      @include fz(43);
+      color: #523239;
+      .u-pc-display-none{
+        display: none;
+      }
+  }
+}
+
+//shift.html
+.p-date {
+  @include fz(20);
+  font-family: $font-family-point;
+  padding-right: 6px;
+    &:last-child {
+      padding-right: 0;
+    }
+  @include mq(){
+    @include fz(30);
+  };
+}
+
+.p-list-title__text{
+  @include fz(26);
+  position: relative;
+  padding: 1.25rem;
+  font-family: $font-family-point;
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 30px);
+      width: 60px;
+      height: 5px;
+      border-radius: 3px;
+      background: $list-title-undercolor;
+    }
+}
+
+.p-list__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 4px dotted $list-item-untercolor;
+  background: $list-item-bgcolor;
+}
+
+.p-list__text {
+  -webkit-text-fill-color: rgba(0, 0, 0, 1);
+  -webkit-opacity: 1;
+  color: rgba(0, 0, 0, 1); 
+  @include fz(18);
+  width: 100%;
+  line-height: 100%;
+}
+
+//footer
+.p-footer__copyright {
+  color: #fff;
+  text-align: center;
+}

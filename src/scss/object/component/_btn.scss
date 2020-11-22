@@ -1,0 +1,56 @@
+@import "foundation/foundation";
+
+.c-btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: $btn-color;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  color: #fff;
+  font-weight: bold;
+  @include fz(24);
+  text-align: center;
+  transition: .25s;
+  &:focus,
+  &:hover {
+    background-color: #fff;
+    border-color: currentColor;
+    color: $btn-color;
+  }
+}
+
+.btn--arrow-right {
+  position: relative;
+  padding-right: 2em;
+  padding-left: 1.38em;
+  &::after {
+    content: '\f061';
+    position: absolute;
+    top: 50%;
+    right: .83em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    transform: translateY(-50%);
+  }
+}
+
+.c-btn__add {
+  padding: 0px 5px;
+  width: 6rem;
+  background-color: $btn-add-color;
+  cursor: pointer;
+  &:focus,
+  &:hover {
+    background-color: #fff;
+    border-color: currentColor;
+    color: $btn-add-color;
+  }
+}
+
+.c-btn__add-link{
+  @include fz(16);
+  line-height: 2.25em;
+}

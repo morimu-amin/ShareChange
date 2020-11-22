@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Share your original learning materials and get inspilation for your class!">
+    <title>Share change!</title>
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png"><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/749f9d0226.js" crossorigin="anonymous"></script>
+  </head>
+  <body> 
+    <div class="l-main c-bg-shift">
+      <div class="u-date-container_margin">
+        <div class="c-date-wrapper u-date-wrapper_padding">
+          <p class="p-date p-date__today">Today:          </p>
+          <p class="p-date" id="js-getToday">      </p>
+        </div>
+      </div>
+      <div class="u-main__container_display">         
+        <div class="c-main__container u-main__container_margin">
+          <header class="u-list-title_center">
+            <h2 class="p-list-title__text">Shift Change</h2>
+          </header>
+          <div class="u-form-btn_center u-form_margin u-form-pc_display">
+            <form class="c-list__add-task u-list-form_margin" autocomplete="off" onsubmit="return false;">
+              <input class="c-list__add-task_text js-shift-input" type="text" name="add" placeholder="ex. Mayumi 11/20 day off">
+            </form><span class="c-btn c-btn__add"><a class="c-btn__add-link js-btn-shift-add">Add</a></span>
+          </div>
+          <div class="js-shift-container"></div>
+        </div>
+        <div class="c-main__container u-main__container_margin">
+          <header class="u-list-title_center">
+            <h2 class="p-list-title__text">Others</h2>
+          </header>
+          <div class="u-form-btn_center u-form_margin u-form-pc_display">
+            <form class="c-list__add-task u-list-form_margin" autocomplete="off" onsubmit="return false;">
+              <input class="c-list__add-task_text js-others-input" type="text" name="add" placeholder="ex. Emily 11/23 Skype 2-3pm">
+            </form><span class="c-btn c-btn__add"><a class="c-btn__add-link js-btn-others-add">Add</a></span>
+          </div>
+          <div class="js-others-container"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="l-footer">
+      <div class="l-footer__inner">
+        <p class="p-footer__copyright"><small>&copy; 2020 Share change! Allrights Reserved.</small></p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

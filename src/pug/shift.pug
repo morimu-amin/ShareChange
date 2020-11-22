@@ -1,0 +1,37 @@
+
+doctype html
+html(lang="ja")
+    include _include/_head.pug
+  
+    body 
+      div.l-main.c-bg-shift
+        div.u-date-container_margin
+          div.c-date-wrapper.u-date-wrapper_padding
+              p.p-date.p-date__today Today:          
+              p.p-date#js-getToday       
+      
+        div.u-main__container_display          
+          div.c-main__container.u-main__container_margin
+                header.u-list-title_center
+                  h2.p-list-title__text Shift Change
+                div.u-form-btn_center.u-form_margin.u-form-pc_display
+                  form.c-list__add-task.u-list-form_margin(autocomplete="off" onsubmit="return false;")
+                    input.c-list__add-task_text.js-shift-input(type="text" name="add" placeholder="ex. Mayumi 11/20 day off")
+                  span.c-btn.c-btn__add
+                      a.c-btn__add-link.js-btn-shift-add Add
+                div.js-shift-container
+                   
+
+          div.c-main__container.u-main__container_margin
+                 header.u-list-title_center
+                   h2.p-list-title__text Others
+                 div.u-form-btn_center.u-form_margin.u-form-pc_display
+                   form.c-list__add-task.u-list-form_margin(autocomplete="off" onsubmit="return false;")
+                     input.c-list__add-task_text.js-others-input(type="text" name="add" placeholder="ex. Emily 11/23 Skype 2-3pm")
+                   span.c-btn.c-btn__add
+                      a.c-btn__add-link.js-btn-others-add Add
+                 div.js-others-container
+                         
+          
+      include _include/_footer.pug        
+      script(src="js/main.js")

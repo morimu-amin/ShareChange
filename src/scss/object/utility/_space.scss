@@ -1,0 +1,43 @@
+
+//index.html
+.u-main__toptheme_margin {
+  margin-bottom: 0.9375rem;
+  @include mq(){
+      margin-bottom: 7.7rem;
+  }
+}
+
+//shift.html
+.u-date-container_margin{
+  padding: 0.9375rem 0.9375rem 4.25rem 0.9375rem;
+}
+
+.u-list-form_margin{
+  margin-bottom: 0.625rem;
+  @include mq(){
+    margin-right: 0.3125rem;
+    margin-bottom: 0;
+  }
+}
+
+.u-form_margin {
+  margin-bottom: 0.625rem;
+}
+
+.u-list_margin {
+  margin-bottom: 0.625rem;
+  padding-right: 0.3125rem;
+  padding-left: 0.3125rem;
+  @include mq(){
+    margin-top: 2rem;
+  };
+}
+
+.u-list-title_center {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.u-main__container_margin {
+  margin-bottom: 3rem;
+}

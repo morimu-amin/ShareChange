@@ -1,0 +1,18 @@
+.u-form-btn_center {
+  text-align: center;
+}
+
+.u-main__container_display {
+  overflow: auto;
+  width: 100%;
+  @include mq(){
+        display: flex;
+        overflow: visible;
+        justify-content: space-between;
+
+      .u-form-pc_display {
+        display: flex;
+        justify-content: center;
+      }
+  }
+}

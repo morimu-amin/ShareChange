@@ -1,0 +1,29 @@
+.c-date-wrapper {
+  display: flex;
+  justify-content: center;
+  line-height: 5.5em;
+  width: 280px;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  border-radius: 50%;
+  color: #fff;
+  @include mq(){
+       width: 420px;
+  }
+}
+
+.c-main__container {
+  padding:0.625rem 0.9375rem;
+  margin: 0 auto;
+  text-align: center;
+  flex-grow: 1;
+  line-height: 1.5;
+  background: rgba(255, 255, 255, 0.75);
+  @include mq(){
+      height: 400px;
+      overflow: scroll;
+      margin-right: 5.75rem;
+      &:last-child {
+        margin-right: 0;
+      }
+  }
+}
