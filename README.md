@@ -16,6 +16,7 @@ Share Change!を制作しました。
 URLにアクセスし、自分のシフト変更内容を記入するだけ。  
 「シフト変更（Shift Change)」と「その他（Others）」に項目分けされているので、  
 該当する方に記入します。  
+![イメージ](https://user-images.githubusercontent.com/65016438/99898080-216db100-2ce2-11eb-9314-4440b5f5295b.GIF)
 
 ## Tools
 使用言語: Javascript/HTML/CSS/Pug/SaSS  
