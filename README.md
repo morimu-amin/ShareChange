@@ -13,7 +13,7 @@ Portfolio No.1→ [Go to App](https://sharechange-7bb88.web.app)
 Share Change!を制作しました。  
 
 ## Usage
-URLにアクセスし、自分のシフト変更内容を記入するだけ。  
+URLにアクセスし、シフトor予定変更内容を記入するだけ。  
 「シフト変更（Shift Change)」と「その他（Others）」に項目分けされているので、  
 該当する方に記入します。  
 ![イメージ](https://user-images.githubusercontent.com/65016438/99898080-216db100-2ce2-11eb-9314-4440b5f5295b.GIF)
