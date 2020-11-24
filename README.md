@@ -1,4 +1,4 @@
-# ShareChange!
+# Share Change!
 Portfolio No.1→ [Go to App](https://sharechange-7bb88.web.app)
 
 ## Description
@@ -16,7 +16,12 @@ Share Change!を制作しました。
 URLにアクセスし、シフトor予定変更内容を記入するだけ。  
 「シフト変更（Shift Change)」と「その他（Others）」に項目分けされているので、  
 該当する方に記入します。  
-![イメージ](https://user-images.githubusercontent.com/65016438/99898080-216db100-2ce2-11eb-9314-4440b5f5295b.GIF)
+![イメージ](https://user-images.githubusercontent.com/65016438/99898080-216db100-2ce2-11eb-9314-4440b5f5295b.GIF)  
+
+## Target
+小規模オフィスやチーム間向けの情報共有ツールとして制作しています。  
+突然の予定変更を連絡する場合、スマホでのアクセスがほとんどであとはオフィスか自宅のPCからの  
+操作になると考えられるため、モバイルファーストで制作し、ブレイクポイントは1つ（900px）で設定しました。  
 
 ## Tools
 使用言語: Javascript/HTML/CSS/Pug/SaSS  
@@ -32,7 +37,7 @@ URLにアクセスし、シフトor予定変更内容を記入するだけ。
 ## Note
 「自分の作りたいプロダクト」と「今の自分のできること」のすり合わせを行いながら、<br>
 作品を制作していきました。Javascriptも自分のつけたい機能を考えながら作ると、<br>
-練習のコードを真似するだけでは上手くいかない部分もあり、苦労しました。<br>
+練習のコードを真似するだけでは上手くいかない部分もあり、苦労しました。<br><br>
 また、今回初めてPug,Sass,Gulpを使って制作したため、最初はそれぞれの記法に慣れるのに苦労しましたが、<br>
 使ってみるとすごく便利で、これらのツールがWeb制作の現場で必須ツールだと理解できました。<br>
 CSS設計についてはFLOCSSを意識しました。ComponentとProjectをどう分けるのか、<br>
